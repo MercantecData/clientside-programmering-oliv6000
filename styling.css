@@ -1,0 +1,36 @@
+#Cities {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+#dailyWeather {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+#Cities p {
+    text-align: left; 
+}
+
+.CityName {
+    margin-bottom: -17px;
+}
+
+.City {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 20px;
+}
+
+#removeCityButton {
+    float: right;
+}
+
+#removeCityButton:hover {
+    background-color: lightblue;
+}
